@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DoneProtocol.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewDelegate, DoneProtocol>
 
 
 @end

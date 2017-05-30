@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8032F7AB1EDDBDE900658946 /* CBRParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032F7AA1EDDBDE900658946 /* CBRParser.m */; };
 		80905FA11ECDEC2200E2B13B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80905FA01ECDEC2200E2B13B /* main.m */; };
 		80905FA41ECDEC2200E2B13B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80905FA31ECDEC2200E2B13B /* AppDelegate.m */; };
 		80905FA71ECDEC2200E2B13B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80905FA61ECDEC2200E2B13B /* ViewController.m */; };
 		80905FAA1ECDEC2200E2B13B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80905FA81ECDEC2200E2B13B /* Main.storyboard */; };
 		80905FAC1ECDEC2200E2B13B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80905FAB1ECDEC2200E2B13B /* Assets.xcassets */; };
 		80905FAF1ECDEC2200E2B13B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80905FAD1ECDEC2200E2B13B /* LaunchScreen.storyboard */; };
+		80E2F8621ED7271A0094740B /* textFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E2F8611ED7271A0094740B /* textFieldDelegate.m */; };
+		80E2F8651ED72AB60094740B /* pickerTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E2F8641ED72AB60094740B /* pickerTextFieldDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8032F7A91EDDBDE900658946 /* CBRParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBRParser.h; sourceTree = "<group>"; };
+		8032F7AA1EDDBDE900658946 /* CBRParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBRParser.m; sourceTree = "<group>"; };
 		80905F9C1ECDEC2200E2B13B /* ValuteConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValuteConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80905FA01ECDEC2200E2B13B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		80905FA21ECDEC2200E2B13B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,11 @@
 		80905FAB1ECDEC2200E2B13B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80905FAE1ECDEC2200E2B13B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80905FB01ECDEC2200E2B13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E2F8601ED7271A0094740B /* textFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textFieldDelegate.h; sourceTree = "<group>"; };
+		80E2F8611ED7271A0094740B /* textFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textFieldDelegate.m; sourceTree = "<group>"; };
+		80E2F8631ED72AB60094740B /* pickerTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pickerTextFieldDelegate.h; sourceTree = "<group>"; };
+		80E2F8641ED72AB60094740B /* pickerTextFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pickerTextFieldDelegate.m; sourceTree = "<group>"; };
+		80E2F8661ED733420094740B /* DoneProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoneProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +77,13 @@
 				80905FAD1ECDEC2200E2B13B /* LaunchScreen.storyboard */,
 				80905FB01ECDEC2200E2B13B /* Info.plist */,
 				80905F9F1ECDEC2200E2B13B /* Supporting Files */,
+				80E2F8601ED7271A0094740B /* textFieldDelegate.h */,
+				80E2F8611ED7271A0094740B /* textFieldDelegate.m */,
+				80E2F8631ED72AB60094740B /* pickerTextFieldDelegate.h */,
+				80E2F8641ED72AB60094740B /* pickerTextFieldDelegate.m */,
+				80E2F8661ED733420094740B /* DoneProtocol.h */,
+				8032F7A91EDDBDE900658946 /* CBRParser.h */,
+				8032F7AA1EDDBDE900658946 /* CBRParser.m */,
 			);
 			path = ValuteConverter;
 			sourceTree = "<group>";
@@ -152,6 +169,9 @@
 			files = (
 				80905FA71ECDEC2200E2B13B /* ViewController.m in Sources */,
 				80905FA41ECDEC2200E2B13B /* AppDelegate.m in Sources */,
+				80E2F8621ED7271A0094740B /* textFieldDelegate.m in Sources */,
+				80E2F8651ED72AB60094740B /* pickerTextFieldDelegate.m in Sources */,
+				8032F7AB1EDDBDE900658946 /* CBRParser.m in Sources */,
 				80905FA11ECDEC2200E2B13B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +329,7 @@
 				80905FB51ECDEC2200E2B13B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
